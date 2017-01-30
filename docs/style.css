@@ -1,0 +1,98 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+
+.big-title {
+    font-size: 110px;
+    font-family: "Mercury SSm A", "Mercury SSm B";
+    font-style: normal;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    line-height: 114px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -3px;
+}
+
+
+.opening-section {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content:center;
+    justify-content: center;
+}
+
+
+.logo-container {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+
+.logo {
+    /* height: 36px; */
+    /* text-decoration: none; */
+    /* width: 36px; */
+}
+
+.name{
+  margin: 0px;
+  text-decoration: none;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-top: 4px;
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+
+.logo-svg {
+  width: 50px;
+  height: 50px;
+  height: 50px;
+}
+
+.title-sub{
+  font-family: "Mercury SSm A", "Mercury SSm B";
+  letter-spacing: -.4px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+
+.story-section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.shorty-gif {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
