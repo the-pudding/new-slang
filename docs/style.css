@@ -135,3 +135,103 @@ a{
   font-weight: 500;
   text-align: center;
   margin-top: 30px;
+}
+
+p{
+  margin:0px;
+}
+
+.top-slang-section{width: 100%;background: rgba(255, 223, 223, 0.58);margin-bottom: 100px;}
+
+
+.top-slang-section-content {
+    width: 640px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Whitney SSm A", "Whitney SSm B";
+}
+
+.top-slang-section-title-top {
+    font-family: "Whitney SSm A", "Whitney SSm B";
+    color: #FF3333;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.top-slang-section-title-bottom {
+    margin: 0px;
+    font-size: 16px;
+    letter-spacing: -.3px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+.top-slang-section-table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.top-slang-section-title {
+    margin-bottom: 30px;
+}
+
+.top-slang-section-table-current-year {
+    border-bottom: 2px solid #FF3333;
+    color: #FF3333;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 4px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.top-slang-section-table-current {
+    width: 260px;
+}
+
+.top-slang-section-table-current-item {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.top-slang-section-table-current-items {height: 210px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-flex-direction: column;flex-direction: column;-webkit-flex-wrap: wrap;flex-wrap: wrap;line-height: 20px;}
+
+.top-slang-section-table-current-item-num  {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.top-slang-section-table-past {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 10px;
+}
+
+.top-slang-section-table-past-column {
+    margin-right: 10px;
+}
+
+.top-slang-section-table-past-column-year {
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.top-slang-section-table-past-column-item {
+    font-size: 15px;
+    line-height: 18px;
+}
