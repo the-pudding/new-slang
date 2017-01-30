@@ -83,7 +83,7 @@ body {
   font-size: 1rem;
   line-height: 1.7rem;
   margin-bottom: 1.5rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a:visited{
@@ -117,7 +117,7 @@ a:visited{
     width: 300px;
     pointer-events: none;
     height: 240px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 
@@ -141,15 +141,16 @@ p{
   margin:0px;
 }
 
-.top-slang-section{width: 100%;background: rgba(255, 223, 223, 0.58);margin-bottom: 100px;}
+.top-slang-section{width: 100%;background: rgba(255, 223, 223, 0.58);margin-bottom: 50px;margin-top: 60px;position: relative;}
 
 
 .top-slang-section-content {
     width: 640px;
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
     font-family: "Whitney SSm A", "Whitney SSm B";
+    position: relative;
 }
 
 .top-slang-section-title-top {
@@ -176,6 +177,10 @@ p{
     display: flex;
 }
 
+.top-slang-section-table-foot{
+
+}
+
 .top-slang-section-title {
     margin-bottom: 30px;
 }
@@ -191,7 +196,8 @@ p{
 }
 
 .top-slang-section-table-current {
-    width: 260px;
+    width: 248px;
+    margin-right: 0px;
 }
 
 .top-slang-section-table-current-item {
@@ -218,7 +224,7 @@ p{
 }
 
 .top-slang-section-table-past-column {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .top-slang-section-table-past-column-year {
@@ -234,4 +240,16 @@ p{
 .top-slang-section-table-past-column-item {
     font-size: 15px;
     line-height: 18px;
+}
+
+b {
+    font-weight: 500;
+}
+
+.top-slang-section-table-foot {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
 }
