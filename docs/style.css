@@ -4,16 +4,15 @@ body {
 }
 
 .big-title {
-    font-size: 110px;
+    font-size: 101px;
     font-family: "Mercury SSm A", "Mercury SSm B";
     font-style: normal;
     font-weight: 900;
     font-style: italic;
     text-align: center;
-    line-height: 114px;
+    line-height: 108px;
     margin: 0 auto;
     padding: 0px;
-    letter-spacing: -3px;
     max-width: 860px;
 }
 
@@ -28,7 +27,7 @@ body {
     -webkit-justify-content:center;
     justify-content: center;
     padding-top: 230px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 
@@ -82,8 +81,9 @@ body {
   font-family: "Mercury SSm A", "Mercury SSm B";
   font-size: 1rem;
   line-height: 1.7rem;
-  margin-bottom: 1.5rem;
-  font-weight: 300;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  /* color: rgba(0, 0, 0, 0.88); */
 }
 
 a:visited{
@@ -97,12 +97,11 @@ a:visited{
 }
 
 .title-sub{
-  font-family: "Mercury SSm A", "Mercury SSm B";
-  letter-spacing: -.4px;
   text-align: center;
   margin-top: 20px;
-  font-size: 19px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Whitney SSm A", "Whitney SSm B";
 }
 
 
@@ -117,7 +116,7 @@ a:visited{
     width: 300px;
     pointer-events: none;
     height: 240px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -134,7 +133,7 @@ a{
   font-size: 13px;
   font-weight: 500;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 p{
@@ -148,7 +147,7 @@ p{
     width: 640px;
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     font-family: "Whitney SSm A", "Whitney SSm B";
     position: relative;
 }
@@ -251,5 +250,55 @@ b {
     bottom: 15px;
     width: 100%;
     font-size: 12px;
+    font-weight: 500;
+}
+
+
+.full-frame {
+    height: 630px;
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.prose-header{
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  font-size: 23px;
+  /* text-transform: uppercase; */
+  margin-top: 80px;
+  font-weight: 700;
+  /* font-family: "Mercury SSm A", "Mercury SSm B"; */
+  margin-bottom: 43px;
+}
+.prose-def{
+  font-size: 18px;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  font-family: "Mercury SSm A", "Mercury SSm B";
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+
+.geo-frame {
+    height: 860px;
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.giphy-embed {
+    background: black;
+}
+
+.red-line {
+    background: #fae5e5;
+    color: #d62f30;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-size: 15px;
     font-weight: 500;
 }
