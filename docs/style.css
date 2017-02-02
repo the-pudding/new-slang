@@ -278,16 +278,17 @@ b {
   /* text-transform: uppercase; */
   font-family: "Mercury SSm A", "Mercury SSm B";
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 36px;
 }
 
 
 .geo-frame {
     height: 860px;
-    max-width: 1060px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .giphy-embed {
@@ -301,4 +302,56 @@ b {
     border-radius: 4px;
     font-size: 15px;
     font-weight: 500;
+}
+
+.prose-image {
+    margin-bottom: 60px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.woke-line img {
+    max-width: 489px;
+    width: 100%;
+}
+
+.woke-line {
+    max-width: 489px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sjw-line {
+    max-width: 485px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sjw-line img {
+    max-width: 485px;
+    width: 100%;
+}
+
+.woke-geo img {
+    max-width: 615px;
+    width: 100%;
+}
+
+.woke-geo {
+    max-width: 615px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sjw-geo img {
+    max-width: 565px;
+    width: 100%;
+}
+
+.sjw-geo {
+    max-width: 565px;
+    width: 100%;
+    margin: 0 auto;
 }
