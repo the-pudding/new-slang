@@ -127,6 +127,7 @@ a{
 .prose-wrapper {
     width: 640px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 .by-line{
   font-family: "Whitney SSm A", "Whitney SSm B";
@@ -306,11 +307,11 @@ b {
 
 .prose-image {
     margin-bottom: 60px;
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */
     padding-top: 10px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-top: 30px;
+    /* border-bottom: 1px solid #ccc; */
+    /* padding-bottom: 5px; */
+    margin-top: 50px;
 }
 
 .woke-line img {
@@ -345,6 +346,39 @@ b {
     margin: 0 auto;
 }
 
+.shook-geo img {
+    max-width: 462px;
+    width: 100%;
+}
+
+.shook-geo {
+    max-width: 462px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bough-geo img {
+    max-width: 467px;
+    width: 100%;
+}
+
+.bough-geo {
+    max-width: 467px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boolin-geo img {
+    max-width: 475px;
+    width: 100%;
+}
+
+.boolin-geo {
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .sjw-geo img {
     max-width: 565px;
     width: 100%;
@@ -354,4 +388,123 @@ b {
     max-width: 565px;
     width: 100%;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .geo-frame{margin-top: -80px;height: 1080px;}
+}
+
+@media only screen and (max-width: 700px) {
+  .geo-frame{margin-top: -80px;height: 1110px;}
+}
+
+@media only screen and (max-width: 640px) {
+  .top-slang-section-content{
+    width: 95%;
+  }
+  .big-title{font-size: 80px;line-height: 87px;}
+  .top-slang-section-table-past-column-item{
+    font-size: 14px;
+  }
+  .top-slang-section-table-current-item{font-size: 14px;}
+  .prose-wrapper{
+    width: 95%;
+  }
+  .geo-frame{margin-top: -80px;height: 1180px;}
+}
+
+@media only screen and (max-width: 500px) {
+  .big-title{
+    font-size: 58px;
+    line-height: 70px;
+  }
+  .top-slang-section-table-current-item{
+    font-size: 13px;
+  }
+  .top-slang-section-table-past-column-item{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .full-frame{
+    height: 710px;
+  }
+  .geo-frame{
+    height: 1260px;
+  }
+  .title-sub{
+
+  }
+  .top-slang-section-table-current-items{
+    height: 300px;
+  }
+  .top-slang-section-table-current{
+    width: 143px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .big-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .title-sub{
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .top-slang-section-table-current-items{height: 345px;}
+  .top-slang-section-table-current{
+    width: 105px;
+  }
+  .full-frame{
+    height: 690px;
+  }
+  .geo-frame{
+    height: 1400px;
+  }
+  .prose-def{font-size: 16px;line-height: 24px;}
+  .top-slang-section-table-foot{
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .top-slang-section-table-past-column{
+    margin: 0px;
+  }
+  .top-slang-section-table-current-item{
+    font-size: 12px;
+  }
+  .top-slang-section-table-past-column-item{
+    font-size: 12px;
+  }
+  .top-slang-section-table-past{
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logo-container{
+    width: 150px;
+  }
+  .by-line{margin-top: 30px;}
+  .logo-svg{
+    width: 40px;
+    height: 40px;
+  }
+  .prose{
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .big-title{
+    font-size: 41px;
+    line-height: 48px;
+  }
+  .title-sub{
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .opening-section{
+  padding-top: 160px;
+  }
 }
