@@ -1,7 +1,7 @@
 
 
 var slang = {2016:["Triggered","Shook","Juju","Broccoli","Woke","Holosexual","Shill","Gaslighting","Bigly","SJW","Dank Memes","Vexing","Bough","Boolin","Wavy"],
-             2015:["Blase","Netflix And Chill","Glock","Lowkey","Pleb","Quan","Pepe","Stoop","Burnt","Simmer"],
+             2015:["Blase","Netflix and Chill","Glock","Lowkey","Pleb","Quan","Pepe","Stoop","Burnt","Simmer"],
              2014:["Fleek","Fam","Felicia","Anaconda","Slay","Yeet","Silt","Calvary","Becky","Hawking"],
              2013:["Selfie","Bae","Turn Up","Red Nose","Emoji","Turnt","Sapiosexual","Sus"]
             };
